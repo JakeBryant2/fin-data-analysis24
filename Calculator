@@ -1,0 +1,21 @@
+# This is my day one attempt to create a calculator
+def Addition (x,y):
+    return x + y
+
+def Subtraction (x,y):
+    return x - y
+
+def Multiplication (x,y):
+    return x * y
+
+def Division (x,y):
+    return x / y
+
+print("Select operation.")
+print("1.Add")
+print("2.Subtract")
+print("3.Multiply")
+print("4.Divide")
+
+while True:
+    choice = input ("Select 1/2/3/4: ")
